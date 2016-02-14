@@ -1,0 +1,30 @@
+{
+  "name": "Weather",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "test": "node node_modules/eslint/bin/eslint .",
+    "start": "react-native start"
+  },
+  "dependencies": {
+    "crypto": "0.0.3",
+    "react": "^0.14.3",
+    "react-native": "^0.19.0",
+    "react-native-modalbox": "^1.2.8",
+    "react-native-storage": "0.0.11",
+    "react-native-swiper2": "git+https://github.com/sunnylqm/react-native-swiper2.git",
+    "react-native-vector-icons": "^1.0.4",
+    "react-redux": "^4.0.2",
+    "redux": "^3.0.5",
+    "redux-actions": "^0.9.0",
+    "redux-logger": "^2.3.1",
+    "redux-thunk": "^1.0.2"
+  },
+  "devDependencies": {
+    "babel-eslint": "^4.1.6",
+    "eslint": "^1.10.3",
+    "eslint-config-airbnb": "^2.1.1",
+    "eslint-plugin-import": "^0.12.1",
+    "eslint-plugin-react": "^3.11.3"
+  }
+}
